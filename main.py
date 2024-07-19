@@ -53,7 +53,7 @@ def read_file(path: Path = None, strip_whitespace: bool = False):
     Reads a file specified by path and returns stripped
     list of lines.
 
-    args:
+    params:
         path - Path - path to target file
 
     returns:
@@ -73,7 +73,7 @@ def compose_csv_data(data=None, cols=None) -> List[List[Any]]:
     Composes CSV file using header row and raw data. Assumes headers/data
     have been prepared.
 
-    args:
+    params:
         data - list of lists containing data rows
         cols - sorted column names
 
