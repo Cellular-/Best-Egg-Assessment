@@ -95,7 +95,6 @@ def sort_by(data, key_index=None):
 
     params:
         data - data to sort
-
     """
 
     return sorted(data, key=lambda item: int(item.split('|')[key_index]))
