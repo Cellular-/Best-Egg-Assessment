@@ -1,0 +1,11 @@
+10|Ship Date
+1|Order ID
+2|Order Date
+11|Ship Time
+5|Item ID
+6|Price
+7|Quantity
+3|Order Time
+4|Vendor ID
+8|Processed Date
+9|Processed Time
